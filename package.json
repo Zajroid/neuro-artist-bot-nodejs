@@ -1,0 +1,20 @@
+{
+  "name": "neuro-artist-bot-nodejs",
+  "version": "1.0.0",
+  "description": "Neuro artist bot on nodejs",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "nodemon bot"
+  },
+  "keywords": [],
+  "author": "Zajroid",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "puregram": "^2.8.2"
+  }
+}
